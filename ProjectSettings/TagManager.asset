@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   tags:
-  - ground
-  - Crate
-  - Enemy
-  - Wall
-  - Obstacle
-  - Bullet
-  - BombPickup
-  - ExplosionFX
-  - HealthBar
+  - Terrain
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -21,11 +13,11 @@ TagManager:
   Builtin Layer 5: 
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: Bombs
-  User Layer 9: Player
-  User Layer 10: Enemies
-  User Layer 11: Pickups
-  User Layer 12: Ground
+  User Layer 8: Background
+  User Layer 9: Terrain
+  User Layer 10: Character
+  User Layer 11: Foreground
+  User Layer 12: UI
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
@@ -50,11 +42,11 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: Default
+  - name: Background Image
     userID: 1
     uniqueID: 3363470833
     locked: 0
-  - name: Background
+  - name: Terrain
     userID: 2
     uniqueID: 1535931219
     locked: 0

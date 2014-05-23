@@ -15,7 +15,7 @@ public class Aiming : MonoBehaviour
             while (angle < 0)
                 angle += 360;
 
-            gun.Rotate(360 - Mathf.RoundToInt(angle));
+            gun.Rotate(Mathf.RoundToInt(angle));
         }
     }
 
@@ -27,6 +27,7 @@ public class Aiming : MonoBehaviour
     {
         gun = gameObject.GetComponentInChildren<Gun>();
         angleText = gameObject.GetComponentInChildren<AngleText>();
+        Angle = 45;
     }
 
     void OnGUI()

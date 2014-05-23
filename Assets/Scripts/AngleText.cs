@@ -9,17 +9,23 @@ public class AngleText : MonoBehaviour
     public int Angle
     {
         get { return angle; }
-        set { angle = value; textMesh.text = DisplayedAngle.ToString() + "°"; }
+        set { angle = value; textMesh.text = DisplayedAngle; }
     }
 
-    protected int DisplayedAngle
+    // formats angle to restrict results to [-90, 90] left or right
+    protected string DisplayedAngle
     {
         get
         {
-            return Mathf.RoundToInt(
-                Angle <= 90 ? Angle
-                : Angle <= 270 ? 180 - Angle
-                : Angle - 360);
+            var degrees = Angle <= 90 ? Angle
+                : Angle < 270 ? 180 - Angle
+                : Angle - 360;
+
+            string direction = "";
+            if (Angle > 90 && Angle < 270)
+                direction = "B";
+
+            return string.Format("{0}° {1}", degrees, direction);
         }
     }
 
@@ -34,6 +40,6 @@ public class AngleText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //guiText.text = DisplayedAngle.ToString();
+
     }
 }

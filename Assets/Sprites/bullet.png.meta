@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: c9d6e0bf8c5b18849936a8e4ef46345b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: bullet_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 78
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bullet_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 78
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bullet_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 56
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 56
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 30
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 30
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 30
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 30
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 30
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+    - name: bullet_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+  spritePackingTag: 
+  userData: 
