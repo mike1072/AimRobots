@@ -41,7 +41,7 @@ public class Gun : MonoBehaviour
     {
         var bulletInstance = Instantiate(bullet, exitPoint.position, exitPoint.rotation) as GameObject;
 
-        bulletInstance.rigidbody2D.AddForce(bulletInstance.transform.right * BulletPower);
+        bulletInstance.GetComponent<Rigidbody2D>().AddForce(bulletInstance.transform.right * BulletPower);
         cameraFollow.target = bulletInstance.transform;
 
         var bulletTime = 3;

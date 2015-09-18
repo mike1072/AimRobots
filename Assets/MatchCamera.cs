@@ -17,6 +17,6 @@ public class MatchCamera : MonoBehaviour {
 
     void Awake ()
     {
-        camera.orthographicSize = Screen.height / 2;
+        GetComponent<Camera>().orthographicSize = Screen.height / 2;
     }
 }

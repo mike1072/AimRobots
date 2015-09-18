@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         // face direction of movement
-        var velocity = rigidbody2D.velocity;
+        var velocity = GetComponent<Rigidbody2D>().velocity;
         if (velocity.magnitude > 1)
         {
             var angle = Mathf.Atan2(velocity.y, velocity.x) * 180f / Mathf.PI;

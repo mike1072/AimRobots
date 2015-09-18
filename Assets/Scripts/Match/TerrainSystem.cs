@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Terrain : MonoBehaviour
+public class TerrainSystem : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
     Texture2D texture;
